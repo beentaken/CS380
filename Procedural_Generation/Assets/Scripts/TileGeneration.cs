@@ -5,10 +5,13 @@ using UnityEngine;
 public class TileGeneration : MonoBehaviour {
 
     private FileReader fm;
+    public GameObject tile;
 
 	// Use this for initialization
 	void Start () {
         fm = this.GetComponent<FileReader>();
+
+        Instantiate(tile);
 
         //Debug.Log(fm.RollDice("Doors.txt"));
 
