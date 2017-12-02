@@ -97,7 +97,7 @@ public class FileReader : MonoBehaviour {
         if (ind == -1)
             return "";
 
-        int rand_num = Random.Range(0, tables[ind].GetContent().Count - 1);
+        int rand_num = Random.Range(0, tables[ind].GetContent().Count);
 
         return tables[ind].GetContent()[rand_num];
     }

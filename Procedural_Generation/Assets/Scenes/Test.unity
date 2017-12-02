@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 359552871}
   - component: {fileID: 359552876}
   - component: {fileID: 359552877}
+  - component: {fileID: 359552878}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -287,3 +288,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 1446068943902994, guid: 2939a1888de5d254cbfbf1177a087c8a, type: 2}
+  door: {fileID: 1819991601287558, guid: 127489c2029fcfa43b8ec1bfd1bed4b6, type: 2}
+--- !u!114 &359552878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359552870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e420099df899f4f961777079ef87bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragSpeed: 1
