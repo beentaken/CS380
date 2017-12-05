@@ -1,0 +1,5 @@
+Spikes
+Fire
+Poison
+Lightning
+Acid

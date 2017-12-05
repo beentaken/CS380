@@ -5,11 +5,22 @@ using UnityEngine;
 public class Drag : MonoBehaviour {
 
     public float dragSpeed = 2;
+    public float minFov = 15f;
+    public float maxFov = 90f;
+    public float sensitivity = 10f;
+
     private Vector3 dragOrigin;
-	
+
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetMouseButtonDown(0))
+
+        float fov = Camera.main.fieldOfView;
+        fov -= Input.GetAxis("Mouse ScrollWheel") * sensitivity;
+        fov = Mathf.Clamp(fov, minFov, maxFov);
+
+        Camera.main.fieldOfView = fov;
+
+        if (Input.GetMouseButtonDown(0))
         {
             dragOrigin = Input.mousePosition;
         }

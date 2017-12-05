@@ -1,0 +1,10 @@
+Chalice
+Sword
+Axe
+Bow
+Bear
+Bees
+Armor
+Treasure
+Bombs
+Shield

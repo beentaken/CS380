@@ -81,9 +81,17 @@
     <Compile Include="Assets\Scripts\Drag.cs" />
     <Compile Include="Assets\Scripts\FileReader.cs" />
     <Compile Include="Assets\Scripts\TileGeneration.cs" />
+    <Compile Include="Assets\Scripts\UI.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Tables\1.txt" />
+    <None Include="Assets\Tables\2.txt" />
+    <None Include="Assets\Tables\3.txt" />
+    <None Include="Assets\Tables\4.txt" />
+    <None Include="Assets\Tables\Boss.txt" />
     <None Include="Assets\Tables\Doors.txt" />
+    <None Include="Assets\Tables\Item.txt" />
+    <None Include="Assets\Tables\Trap.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
